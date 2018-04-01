@@ -4,12 +4,23 @@ html,body {
   font-family: calibri;
 }
 
+.container {
+  display: flex;
+  flex:1;
+}
+
  .match{
-  display:flex;
+  display: flex;
   margin: 50px;
-  width: 500px;
-  border: 1px solid grey;
+  width: 600px;
+  height: 80px;
+  border: 1px solid #eee;
   justify-content: space-around;
+  flex:1;
+}
+
+.match > div {
+  flex:1;
 }
 .date {
   padding-top: 20px;
