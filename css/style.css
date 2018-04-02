@@ -7,21 +7,24 @@ html,body {
 .container {
   display: flex;
   flex:1;
+  flex-wrap:wrap;
 }
 
  .match{
   display: flex;
   margin: 50px;
-  width: 600px;
+  width: 400px;
   height: 80px;
   border: 1px solid #eee;
   justify-content: space-around;
-  flex:1;
+  /* flex:1; */
 }
 
 .match > div {
   flex:1;
+  width: 500px;
 }
+
 .date {
   padding-top: 20px;
 }
